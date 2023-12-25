@@ -1,21 +1,33 @@
 import Image from "next/image"
+import Link from "next/link"
 const Portfolyo = () => {
     return (
-        <div className="flex flex-col min-h-screen mt-8">
+        <div className="flex flex-col min-h-screen">
             <div className="text-center font-bold">
-                <h1 className="text-3xl text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">Our Works</h1>
-                <h3 className="text-2xl text-gray-400 mt-3 ">Choose a gallery</h3>
+            <h3 className="text-2xl text-gray-400 mt-3 ">Choose a gallery</h3>
                 <div className="flex items-center justify-center gap-5 mt-10">
+                    
                     <div className="relative">
-                        <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+
+                        <Link href={"/portfolio/project1"}>
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+                        </Link>
+
+
                         <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 1</h6>
                     </div>
                     <div className="relative">
-                        <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+
+                    <Link href={"/portfolio/project2"}>
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+                        </Link>
                         <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 2</h6>
                     </div>
                     <div className="relative">
-                        <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+
+                    <Link href={"/portfolio/project3"}>
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
+                        </Link>
                         <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 3</h6>
                     </div>
                 </div>

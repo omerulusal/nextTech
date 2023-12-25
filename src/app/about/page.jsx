@@ -10,7 +10,7 @@ const About = () => {
                     <p className="text-gray-400 text-md mt-3">Handcrafting beautiful digital experiences</p>
                 </div>
             </div>
-            <div className=" flex mb-10 ml-16 gap-10">
+            <div className=" flex mb-10 ml-8 gap-10">
                 <div className="w-[600px]">
                     <h2 className="text-3xl font-bold mb-5">Who Are We?</h2>
                     <p className="mb-5 text-gray-400 ">

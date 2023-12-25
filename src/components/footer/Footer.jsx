@@ -5,7 +5,7 @@ import Image from "next/image"
 const Footer = () => {
     const router = useRouter()
     return (
-        <div className="flex items-center justify-between px-[180px]">
+        <div className="flex items-center justify-between px-[130px]">
             <div>
                 © 2024 <span onClick={() => router.push("/")}
                     className="font-bold text-blue-700 hover:underline underline-offset-4 decoration-2 decoration-blue-700 cursor-pointer">
