@@ -44,7 +44,7 @@ const Navbar = () => {
                 <ul className="flex items-center justify-center gap-10">
                     {links.map((link) => (
                         <li key={link.id} >
-                            <Link href={link.url}
+                            <Link href={link.url} key={link.id}
                                 className={ "text text-white hover:text-gray hover:underline underline-offset-4 decoration-2 decoration-gray"}>
                                 {link.title}
                             </Link>
