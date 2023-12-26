@@ -1,6 +1,6 @@
 "use client"
 import { useContext } from "react"
-import { ThemeContext } from "../../../context/ThemeContext"
+import { ThemeContext } from "../../context/ThemeContext"
 
 const DarkModeToogle = () => {
     const { toogle, mode } = useContext(ThemeContext)
