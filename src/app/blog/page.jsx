@@ -1,6 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
 
+export const metadata = {
+    title: 'Next Tech Blog',
+    description: 'Next Technologies Blog Page.',
+}
+
 async function getData() {
     const res = await fetch("http://localhost:3000/api/posts", {
         next: { revalidate: 10 }
