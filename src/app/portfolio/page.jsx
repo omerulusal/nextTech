@@ -9,7 +9,7 @@ const Portfolyo = () => {
                     
                     <div className="relative">
 
-                        <Link href={"/portfolio/project1"}>
+                        <Link href={"/portfolio/applications"}>
                             <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
                         </Link>
 
@@ -18,14 +18,14 @@ const Portfolyo = () => {
                     </div>
                     <div className="relative">
 
-                    <Link href={"/portfolio/project2"}>
+                    <Link href={"/portfolio/illustrations"}>
                             <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
                         </Link>
                         <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 2</h6>
                     </div>
                     <div className="relative">
 
-                    <Link href={"/portfolio/project3"}>
+                    <Link href={"/portfolio/websites"}>
                             <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.png"} width={350} height={200} alt="img" />
                         </Link>
                         <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 3</h6>

@@ -1,10 +1,24 @@
 import Image from "next/image";
-const BlogPost = () => {
+import {notFound} from "next/navigation";
+
+async function getData(id) {
+    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+        cache: "no-store",
+    })
+    if (!res.ok) {
+        return notFound()
+    }
+    return res.json()
+}
+
+
+const BlogPost = async ({ params }) => {
+    const data = await getData(params.id)
     return (
         <div className="min-h-screen">
             <div className="flex items-center justify-between px-20 mt-10">
                 <div>
-                    <h1>Blog Title</h1>
+                    <h1 className="text-3xl font-bold text-gray-300 capitalize mb-5">{data.title}</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, rerum. Amet sit consequatur doloremque commodi eos rem quaerat maxime optio sint in, adipisci odit accusantium deleniti animi nobis nulla sed.
                         Dicta consectetur voluptas ullam officia quos quo. Illum maxime dolorum, sit rerum cum reiciendis hic laudantium saepe. Voluptas aperiam nihil unde accusamus quos laudantium ipsa magnam? Saepe optio quo modi.</p>
                     <div className="flex items-center gap-2 text-gray-400 text-sm mt-2">
