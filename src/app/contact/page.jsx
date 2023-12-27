@@ -8,7 +8,7 @@ const Contact = () => {
                 Let`s Keep In Touch
             </h1>
             <div className="flex flex-row gap-10 items-center justify-center py-10">
-                <Image className="hover:scale-110 hover:rotate-6 duration-300 transition-all" src={"/contact.png"} width={350} height={350} alt="img" />
+                <Image className="hover:scale-110 hover:rotate-6 duration-300 transition-all" src={"/isometric.gif"} width={370} height={370} alt="img" />
                 <div className="flex flex-col w-2/4 px-20">
                     <Input type="text" placeholder="Name" />
                     <Input type="email" placeholder="Email" />
