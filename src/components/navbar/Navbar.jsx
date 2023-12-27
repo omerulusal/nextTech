@@ -31,13 +31,13 @@ const links = [
     {
         id: 6,
         title: "Dashboard",
-        url: "/dashboard",
+        url: "/dashboard/register",
     },
 ];
 
 const Navbar = () => {
     return (
-        <div className="flex items-center justify-center p-3 mt-4">
+        <div className="flex items-center justify-center p-3 mt-4 z-20">
             <Link href={"/"} className="mr-32" >
                 <Image width={150} height={150} src="/logo.png" alt="logo" priority />
             </Link>

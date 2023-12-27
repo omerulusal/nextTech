@@ -7,7 +7,6 @@ const Register = () => {
                 <input className="focus:outline-none focus:bg-transparent p-2 rounded border border-slate-700 bg-transparent" type="text" placeholder="username" />
                 <input className="focus:outline-none focus:bg-transparent p-2 rounded border border-slate-700 bg-transparent" type="email" placeholder="email" />
                 <input className="focus:outline-none focus:bg-transparent p-2 rounded border border-slate-700 bg-transparent" type="password" placeholder="password" />
-
                 <Link
                     className="text-green-600 text-sm hover:text-green-700 hover:underline "
                     href={"/dashboard/login"}>
