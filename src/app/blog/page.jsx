@@ -21,12 +21,12 @@ const Blog = async () => {
             {data.map((pst) => (
 
                 <Link href={`/blog/${pst._id}`} key={pst.id} >
-                    <div className="flex items-center justify-center gap-10">
-                        <Image className="w-2/4 rounded-md shadow-lg" width={250} height={250} src={"/apps.jpg"} alt="img" />
-                        <div className="flex flex-col gap-5">
+                    <div className="flex items-center mt-10 justify-center gap-10">
+                        <Image className="w-2/6 rounded-md shadow-lg" width={200} height={200} src={pst.img} alt="img" />
+                        <div className="w-2/4 flex flex-col gap-5">
                             <h1 className="capitalize text-3xl font-bold text-gray-300 ">{pst.title}</h1>
                             <p className="text-gray-400 text-md w-3/4">
-                                {pst.body}
+                                {pst.desc}
                             </p>
                         </div>
                     </div>
