@@ -10,25 +10,25 @@ const Portfolyo = () => {
                     <div className="relative">
 
                         <Link href={"/portfolio/applications"}>
-                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/apps.jpg"} width={350} height={200} alt="img" />
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-[#d8c1a4]" src={"/apps.jpg"} width={350} height={200} alt="img" />
                         </Link>
 
 
-                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 1</h6>
+                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Applications</h6>
                     </div>
                     <div className="relative">
 
                     <Link href={"/portfolio/illustrations"}>
-                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/illustration.jpg"} width={350} height={200} alt="img" />
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-[#e99db0]" src={"/illustration.jpg"} width={350} height={200} alt="img" />
                         </Link>
-                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 2</h6>
+                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Illustrations</h6>
                     </div>
                     <div className="relative">
 
                     <Link href={"/portfolio/websites"}>
-                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-sky-700" src={"/websites.jpg"} width={350} height={200} alt="img" />
+                            <Image className="cursor-pointer hover:scale-110 hover:rotate-6 duration-300 transition-all border-2 border-[#b5b2b3]" src={"/websites.jpg"} width={350} height={200} alt="img" />
                         </Link>
-                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Project 3</h6>
+                        <h6 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-sky-700 to-red-500 absolute bottom-2 right-5">Web Sites</h6>
                     </div>
                 </div>
             </div>
