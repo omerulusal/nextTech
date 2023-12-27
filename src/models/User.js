@@ -22,5 +22,5 @@ const userSchema = new Schema(
     { timestamps: true }
 );
 
-//If the User collection does not exist create a new one.
+//Eğer User koleksiyonu mevcut değilse yeni bir tane oluştur.
 export default mongoose.models.User || mongoose.model("User", userSchema);

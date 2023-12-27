@@ -5,9 +5,10 @@ export default function Home() {
     <div className="flex flex-col"  >
       <div className="flex items-center justify-between py-5 px-10">
         <div className="flex flex-col items-center justify-center gap-4 p-6">
-          <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#dbf301] to-blue-500 font-bold tracking-tight sm:text-5xl w-[360px]">Better design for your digital products.</h1>
-
-          <p className="mt-4 leading-8 text-left tracking-tight font-light text-gray-300 max-w-md ml-20 sm:text-2xl">Turning your ideas into Reality. We bring together the teams from global tech industry.</p>
+          <h1 className="text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#dbf301] to-blue-500 font-bold tracking-tight sm:text-5xl w-[360px]">
+            Better design for your digital products.</h1>
+          <p className="mt-4 leading-8 text-left tracking-tight font-light text-gray-300 max-w-md ml-20 sm:text-2xl">
+            Turning your ideas into Reality. We bring together the teams from global tech industry.</p>
           <div className="sm:mt-8 flex gap-4 ml-[160px] text-left w-full">
             <Button text={"See Our Works"} url={"/portfolio"} />
           </div>

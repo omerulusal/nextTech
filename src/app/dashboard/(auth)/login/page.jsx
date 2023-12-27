@@ -4,20 +4,24 @@ const Login = () => {
     return (
         <div className="flex flex-col justify-center min-h-screen items-center -mt-5">
             <div className="flex flex-col gap-4 w-full max-w-xs mx-auto p-4 bg-base-100 text-base-content mt-10">
-                <input className="focus:outline-none focus:bg-transparent p-2 rounded border border-slate-700 bg-transparent mb-2" type="text" placeholder="username" />
-                <input className="focus:outline-none focus:bg-transparent p-2 rounded border border-slate-700 mb-2 bg-transparent" type="password" placeholder="password" />
-
+                <input
+                    className="focus:outline-none focus:bg-transparent focus-within:border-[#22c55e] p-2 rounded border border-slate-700 bg-transparent mb-2"
+                    type="text" placeholder="username" />
+                <input
+                    className="focus:outline-none focus:bg-transparent focus-within:border-[#22c55e] p-2 rounded border border-slate-700 mb-2 bg-transparent"
+                    type="password" placeholder="password" />
                 <Link
                     className="text-green-600 text-xs hover:text-green-700 hover:underline -mb-2 "
                     href={"/"}>Forgot Password</Link>
                 <Link
                     className="text-green-600 text-xs hover:text-green-700 hover:underline mb-4"
                     href={"/dashboard/register"}>Register</Link>
-            <Link href={"/"}>
-                <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 mb-4 rounded w-full">Login</button>
-            </Link>
+                <Link href={"/"}>
+                    <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 mb-4 rounded w-full">Login</button>
+                </Link>
             </div>
-            <Link href={"/"} className="border border-slate-700 bg-transparent w-72 p-2 text-center hover:bg-slate-600 hover:text-black rounded text-slate-200 transition-all flex gap-2 ">
+            <Link href={"/"} className="border border-slate-700 bg-transparent w-72 p-2 text-center 
+            hover:bg-slate-600 hover:text-black rounded text-slate-200 transition-all flex gap-2 ">
                 <div className="mx-auto flex justify-center items-center gap-2">
                     <svg
                         width="18"
