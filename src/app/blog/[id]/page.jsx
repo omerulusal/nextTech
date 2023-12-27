@@ -31,15 +31,15 @@ const BlogPost = async ({ params }) => {
             <div className="flex items-center justify-between px-20 mt-10">
                 <div>
                     <h1 className="text-3xl font-bold text-gray-300 capitalize mb-5">{data.title}</h1>
-                    <p>{data.desc}</p>
+                    <p className="text-gray-400 text-md" >{data.desc}</p>
                     <div className="flex items-center gap-2 text-gray-400 text-sm mt-2">
-                        <Image src={data.img} width={50} height={50} alt="img" className="rounded-full" />
+                        <Image src={data.userImg} width={50} height={50} alt="img" className="rounded-full" />
                         <span>{data.username}</span>
                     </div>
                 </div>
-                <Image src={data.img} width={250} height={250} alt="img" />
+                <Image className="rounded" src={data.img} width={250} height={250} alt="img" />
             </div>
-            <div className="flex items-center justify-between px-20 mt-10">
+            <div className="flex text-gray-400 text-md items-center justify-between px-20 mt-10">
                 {data.content}
             </div>
         </div>

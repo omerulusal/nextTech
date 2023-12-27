@@ -24,6 +24,10 @@ const postSchema = new Schema(
             type: String,
             required: true,
         },
+        userImg: {
+            type: String,
+            required: true,
+        },
     },
     { timestamps: true }
 );
