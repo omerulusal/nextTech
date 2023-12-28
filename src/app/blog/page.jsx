@@ -19,7 +19,6 @@ const Blog = async () => {
     return (
         <div className="flex flex-col min-h-screen m-10 gap-10">
             {data.map((pst) => (
-
                 <Link href={`/blog/${pst._id}`} key={pst.id} >
                     <div className="flex items-center mt-10 justify-center gap-10">
                         <Image className="w-2/6 rounded-md shadow-lg" width={200} height={200} src={pst.img} alt="img" />
