@@ -16,21 +16,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Preview
+<img width="824" alt="1" src="https://github.com/omerulusal/nextTech/assets/96357374/774b096b-3778-4770-b11a-899a4e5ca84d">
+<img width="702" alt="2" src="https://github.com/omerulusal/nextTech/assets/96357374/c3d380db-f339-456c-825b-5233606381ae">
+<img width="788" alt="3" src="https://github.com/omerulusal/nextTech/assets/96357374/a9d7bc2a-83d3-4778-abcf-db03c3f68c70">
+<img width="403" alt="4" src="https://github.com/omerulusal/nextTech/assets/96357374/bd0970a5-003b-4e44-9ee0-bd2ad6aefb14">
+<img width="844" alt="5" src="https://github.com/omerulusal/nextTech/assets/96357374/9e01f044-d557-416c-bcbd-b010602cafb5">
