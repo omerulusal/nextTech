@@ -20,11 +20,12 @@ export async function generateMetadata({ params }) {
         description: post.desc,
     }
     // https://nextjs.org/docs/app/api-reference/functions/generate-metadata
-    // bu sadece dinamkik meta data cekme ornegiydi
+    // bu sadece dinamik meta data cekme ornegiydi
 }
 
 const BlogPost = async ({ params }) => {
     const data = await getData(params.id)
+    //!blogsayfasından gelen id yi alıp dbye o idye karsılık gelen veriyi cekiyoruz
     console.log(data)
     return (
         <div className="min-h-screen">
